@@ -182,3 +182,7 @@ This project is created as part of a  **portfolio to demonstrate end-to-end data
 ## ⭐ If you found this useful
 
 Feel free to ⭐ the repository and connect with me!
+
+## 📜 License
+
+This project is licensed under the MIT License.
