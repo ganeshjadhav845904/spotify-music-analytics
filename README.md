@@ -1,188 +1,140 @@
-# Spotify Data Analytics Project
+# Spotify Music Data Analytics
 
-## 📌 Project Overview
+## Project Overview
 
-This project presents an **end-to-end data analytics pipeline** on Spotify Top 50 songs data.
-It combines **SQL, Python (EDA), and Power BI** to extract meaningful insights about music trends, artist performance, and song characteristics.
+This project focuses on analyzing Spotify Top 50 songs data using **Python, SQL, and Power BI**.
 
-The goal of this project is to demonstrate  **real-world data analytics skills** , including data cleaning, exploration, visualization, and business insight generation.
+It explores music trends, song popularity, artist performance, and song characteristics through data analysis, visualizations, and an interactive Power BI dashboard.
 
----
+## Objectives
 
-## 🎯 Objectives
+- Analyze factors related to song popularity.
+- Identify music trends and patterns.
+- Understand artist performance.
+- Explore song characteristics.
+- Segment songs using machine learning techniques.
 
-* Analyze factors influencing song popularity
-* Identify trends in music consumption over time
-* Understand artist dominance and consistency
-* Explore lifecycle patterns of hit songs
-* Segment songs using machine learning techniques
+## Tech Stack
 
----
+- **Python:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+- **SQL:** Data querying and analysis
+- **Power BI:** Interactive dashboards
+- **Jupyter Notebook:** Exploratory Data Analysis
 
-## 🛠️ Tech Stack
+## Project Structure
 
-* **Python** : Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-* **SQL** : Data querying and transformation
-* **Power BI** : Interactive dashboard creation
-
----
-
-## 📂 Project Structure
-
-```
-Spotify-Data-Analytics-Project/
-│
-├── data/
-│   ├── raw/
-│   ├── cleaned/
-│
-├── notebook/
-│   └── spotify_eda.ipynb
-│
-├── sql/
-│   └── analysis_queries.sql
+```text
+spotify-data-analytics/
 │
 ├── dashboard/
-│   ├── spotify_dashboard.pbix
-│   ├── spotify_dashboard.pdf
-│
+├── data/
+├── notebooks/
+├── sql/
 ├── visuals/
 │
 ├── README.md
-├── requirements.txt
+├── LICENSE
+├── requirement.txt
 └── .gitignore
 ```
 
----
+## Project Workflow
 
-## 🔄 Project Pipeline
-
-```
-SQL → Data Cleaning → Python EDA → Power BI Dashboard
-```
-
----
-
-## 📊 Exploratory Data Analysis (Python)
-
-Performed advanced EDA including:
-
-* Data cleaning & preprocessing
-* Feature engineering (song age, duration, time features)
-* Distribution analysis
-* Correlation analysis
-* Time series analysis
-* Artist-level insights
-* Song lifecycle analysis
-* Explicit content analysis
-* Clustering using K-Means
-
----
-
-## 📈 Power BI Dashboard
-
-The project includes a **3-page interactive dashboard** covering:
-
-* Song popularity trends
-* Artist performance analysis
-* Song characteristics insights
-
- A PDF version of the dashboard is included for quick preview.
-
-
----
-
-## 📷 Dashboard Preview
-
-Dashboard page 1.
-
-![Dashboard](visuals/dashboard/dashboard_page1.png)
-
-Dashboard page 2![Dashboard](visuals/dashboard/dashboard_page2.png)
-
-Dashboard page 3
-
-![Dashboard](visuals/dashboard/dashboard_page3.png)
-
-Dashboard page 4
-
-![Dashboard](visuals/dashboard/dashboard_page4.png)
-
----
-
-## 📊 Key Insights
-
-* Most songs in Top 50 maintain high popularity, indicating intense competition
-* Shorter songs tend to perform slightly better (higher engagement potential)
-* New releases dominate charts, highlighting recency bias in music trends
-* A small group of artists consistently dominate rankings
-* Explicit content is highly competitive in modern music trends
-* Songs exhibit different lifecycle patterns: viral hits vs long-term performers
-* Clustering reveals distinct groups of songs based on performance and characteristics
-
----
-
-## 🚀 Business Insights
-
-* Artists should focus on **frequent releases** to stay relevant
-* **Shorter duration songs** may improve replayability and engagement
-* Building a **strong personal brand** helps artists consistently dominate charts
-* Early traction is critical for achieving viral success
-
----
-
-## 🧠 Skills Demonstrated
-
-* Data Cleaning & Preprocessing
-* Exploratory Data Analysis (EDA)
-* SQL Querying & Optimization
-* Data Visualization (Python & Power BI)
-* Feature Engineering
-* Machine Learning (Clustering)
-* Analytical Thinking & Business Insights
-
----
-
-## ⚙️ How to Run This Project
-
-1. Clone the repository:
-
-```
-git clone https://github.com/your-username/spotify-data-analytics.git
+```text
+Spotify Data
+     ↓
+Data Analysis using SQL
+     ↓
+Python Data Cleaning & EDA
+     ↓
+Machine Learning - K-Means Clustering
+     ↓
+Power BI Dashboard
 ```
 
-2. Install dependencies:
+## Exploratory Data Analysis
 
-```
-pip install -r requirements.txt
+The Python analysis covers:
+
+- Data cleaning and preprocessing
+- Feature engineering
+- Distribution analysis
+- Correlation analysis
+- Artist-level analysis
+- Song characteristics
+- K-Means clustering
+
+## Power BI Dashboard
+
+The interactive Power BI dashboard contains four pages:
+
+1. Index
+2. Overview
+3. Artist Analysis
+4. Songs Analysis
+
+## Key Insights
+
+- Popular songs show strong competition in the Top 50 charts.
+- Song duration and popularity can be explored together.
+- A small group of artists may dominate chart rankings.
+- Clustering helps identify groups of songs with similar characteristics.
+
+## Skills Demonstrated
+
+- SQL Querying
+- Python Programming
+- Data Cleaning
+- Exploratory Data Analysis
+- Data Visualization
+- Power BI Dashboard Development
+- Machine Learning Fundamentals
+- Analytical Thinking
+
+## How to Run
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ganeshjadhav845904/spotify-music-analytics.git
 ```
 
-3. Run the Jupyter Notebook:
+### 2. Open the project folder
 
+```bash
+cd spotify-music-analytics
 ```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirement.txt
+```
+
+### 4. Run Jupyter Notebook
+
+```bash
 jupyter notebook
 ```
 
----
+Open the notebook available inside the `notebooks` folder.
 
-## 📌 Future Improvements
+## Future Improvements
 
-* Add predictive modeling for song popularity
-* Deploy dashboard as a web application
-* Integrate real-time Spotify API data
+- Predictive modeling for song popularity
+- Spotify API integration
+- Additional interactive visualizations
+- Further analysis of music trends
 
----
+## Maintainer
 
-## 🙌 Acknowledgment
+**Ganesh Jadhav**
 
-This project is created as part of a  **portfolio to demonstrate end-to-end data analytics skills** .
+- GitHub: https://github.com/ganeshjadhav845904
+- LinkedIn: https://linkedin.com/in/ganesh-jadhav-b37b57365/
 
----
+This repository is a customized portfolio version of an existing project. Original project authorship and applicable license information should be retained and credited.
 
-## ⭐ If you found this useful
+## License
 
-Feel free to ⭐ the repository and connect with me!
-
-## 📜 License
-
-This project is licensed under the MIT License.
+This project includes the existing MIT License. Please refer to the `LICENSE` file for details.
